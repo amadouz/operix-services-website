@@ -1,0 +1,20 @@
+<svg viewBox="0 0 560 170" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700;900&amp;display=swap');
+    .word { font-family: 'Archivo', sans-serif; font-weight: 900; }
+    .sub { font-family: 'Archivo', sans-serif; font-weight: 700; letter-spacing: 7px; }
+  </style>
+  <defs>
+    <mask id="operixCutLockupLight">
+      <rect x="0" y="0" width="200" height="200" fill="#fff"/>
+      <g transform="rotate(-35 100 100)">
+        <rect x="65" y="-20" width="12" height="240" fill="#000"/>
+        <rect x="93" y="-20" width="12" height="240" fill="#000"/>
+        <rect x="121" y="-20" width="12" height="240" fill="#000"/>
+      </g>
+    </mask>
+  </defs>
+  <circle cx="85" cy="85" r="58" stroke="#0d1b2a" stroke-width="24" fill="none" mask="url(#operixCutLockupLight)"/>
+  <text x="188" y="100" class="word" font-size="58" fill="#0d1b2a">OPERIX</text>
+  <text x="190" y="134" class="sub" font-size="20" fill="#b38a00">SERVICES</text>
+</svg>
