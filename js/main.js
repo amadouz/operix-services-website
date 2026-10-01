@@ -1,6 +1,6 @@
 // Set this to the API Gateway invoke URL once the contact-handler Lambda is deployed.
 // Example: "https://abc123xyz.execute-api.us-east-1.amazonaws.com/contact"
-const FORM_ENDPOINT = "";
+const FORM_ENDPOINT = "https://aqi5k7u6x5.execute-api.us-east-1.amazonaws.com";
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
