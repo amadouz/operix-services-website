@@ -154,7 +154,21 @@ svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width:
 
 .hero-art { display: flex; justify-content: center; }
 
-.van-illustration { width: 100%; max-width: 460px; }
+.hero-photo {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 14px;
+  box-shadow: 0 30px 60px -24px rgba(0,0,0,0.5);
+}
+
+.fleet-banner { line-height: 0; }
+
+.fleet-banner img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  display: block;
+}
 
 .service-strip {
   border-top: 1px solid rgba(255,255,255,0.1);
